@@ -75,13 +75,6 @@ span.line {
     left: 45%;
 }
 
-/*  hover iconos*/
-body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.confirm > div:hover{
-	color: red;
-
-}
-
-/*  / hover iconos*/
 
 
 /* LINEAS DE GUIA  */
@@ -162,7 +155,7 @@ body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > 
 body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > div > i,
 body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.delivery > div > i
  {
-     font-size: 3vw;
+     font-size: 53px;
 			    margin-top: 26%;
 					color: #ff000087;
 
@@ -263,401 +256,539 @@ body > div > div.content3 > div > div.delivery > div > img{
 
 /*---- responsive-design -----*/
 @media(max-width:1920px){
-	span.line {
-	width:157px;
-	left:32%;
+	.content3 p {
+	  margin-left: -53%;
 	}
-	.shipment{
-		margin-top:6%;
+	.content {
+	    width: 100%;
+	    margin: 3% auto 0 auto;
+	    height: 460px;
 	}
-.content3 p{
-margin-left:-65%;
+
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.confirm > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.process > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.quality > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.dispatch > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.delivery > div > i
+	{
+	margin-top: 17%;
+	}
+
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.confirm > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.quality > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.dispatch > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.delivery > div > i{
+		margin-top: 17%;
+	}
+
+	/* SPAN LINES   6   */
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > span {
+		top: 33%;
+		    width: 56%;
+		       margin-left: 0%;
+		    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.process > span {
+		top: 30%;
+		    width: 55%;
+		    margin-left: 0%;
+		    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > span {
+		top: 30%;
+	    width: 56%;
+	    margin-left: 0%;
+	    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span {
+		top: 30%;
+		    width: 55%;
+		    margin-left: -44%;
+		    height: 1px;
+	}
+	/* / SPAN LINES  6 */
+	/* SPAN LINES 12 */
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.confirm > span {
+		top: 26%;
+		    width: 55%;
+		    margin-left: 0%;
+		    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span {
+		top: 26%;
+	    width: 55%;
+	    margin-left:-45%;
+	    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span {
+		top: 26%;
+	    width: 56%;
+	    margin-left: -44%;
+	    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span {
+		top: 30%;
+	    width: 55%;
+	    margin-left:-44%;
+	    height: 1px;
+	}
+	/* SPAN LINES 12 */
 }
 }
 
 @media(max-width:1680px){
 	.content3 p {
-    margin-left: -60%;
-}
-span.line {
-    width: 127px;
-    left: 37%;
-}
+	  margin-left: -53%;
+	}
+	.content {
+	    width: 100%;
+	    margin: 3% auto 0 auto;
+	    height: 460px;
+	}
+
+	/* SPAN LINES   6   */
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > span {
+		top: 34%;
+		    width: 56%;
+		    margin-left: 8%;
+		    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.process > span {
+		top: 31%;
+		    width: 55%;
+		    margin-left: 8%;
+		    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > span {
+		top: 31%;
+	    width: 56%;
+	    margin-left: 8%;
+	    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span {
+		top: 32%;
+		    width: 55%;
+		    margin-left: -44%;
+		    height: 1px;
+	}
+	/* / SPAN LINES  6 */
+	/* SPAN LINES 12 */
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.confirm > span {
+		top: 26%;
+		    width: 55%;
+		    margin-left: 8%;
+		    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span {
+		top: 26%;
+	    width: 55%;
+	    margin-left: -45%;
+	    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span {
+		top: 26%;
+	    width: 56%;
+	    margin-left: -45%;
+	    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span {
+		top: 30%;
+	    width: 55%;
+	    margin-left: -44%;
+	    height: 1px;
+	}
+	/* SPAN LINES 12 */
 }
 
+
 @media(max-width:1600px){
-span.line {
-    width: 117px;
-    left: 39%;
-}
+
 }
 
 @media(max-width:1440px){
 .content3 p {
-    margin-left: -21%;
+  margin-left: -53%;
 }
-span.line {
-    width: 99px;
-    left: 43%;
+.content {
+    width: 100%;
+    margin: 3% auto 0 auto;
+    height: 460px;
 }
+body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.confirm > div > i,
+body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.process > div > i,
+body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.quality > div > i,
+body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.dispatch > div > i,
+body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.delivery > div > i,
+body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.confirm > div > i,
+body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.quality > div > i,
+body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.dispatch > div > i,
+body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.delivery > div > i{
+	margin-top: 17%;
+	font-size: 53px;
+}
+
+/* SPAN LINES   6   */
+body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > span {
+	top: 34%;
+	    width: 56%;
+	    margin-left: -1%;
+	    height: 1px;
+}
+body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.process > span {
+	top: 31%;
+	    width: 55%;
+	    margin-left: 0%;
+	    height: 1px;
+}
+body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > span {
+	top: 31%;
+    width: 56%;
+    margin-left: 0%;
+    height: 1px;
+}
+body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span {
+	top: 32%;
+	    width: 55%;
+	    margin-left: -44%;
+	    height: 1px;
+}
+/* / SPAN LINES  6 */
+/* SPAN LINES 12 */
+body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.confirm > span {
+	top: 26%;
+	    width: 55%;
+	    margin-left: 0%;
+	    height: 1px;
+}
+body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span {
+	top: 26%;
+    width: 55%;
+    margin-left: -45%;
+    height: 1px;
+}
+body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span {
+	top: 26%;
+    width: 56%;
+    margin-left: -45%;
+    height: 1px;
+}
+body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span {
+	top: 30%;
+    width: 55%;
+    margin-left: -44%;
+    height: 1px;
+}
+/* SPAN LINES 12 */
 }
 
 @media (max-width: 1366px){
-span.line {
-    width: 26%;
-    height: 1px;
-    left: 74%;
-}
-span.line.co{
-	left: 76%;
-  width: 24%;
+	.content3 p {
+	  margin-left: -53%;
+	}
+	.content {
+	    width: 100%;
+	    margin: 3% auto 0 auto;
+	    height: 460px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.confirm > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.process > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.quality > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.dispatch > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.delivery > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.confirm > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.quality > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.dispatch > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.delivery > div > i{
+		margin-top: 17%;
+		font-size: 53px;
+	}
+
+	/* SPAN LINES   6   */
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > span {
+		top: 34%;
+		    width: 56%;
+		    margin-left: -1%;
+		    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.process > span {
+		top: 31%;
+		    width: 55%;
+		    margin-left: 0%;
+		    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > span {
+		top: 31%;
+	    width: 56%;
+	    margin-left: 0%;
+	    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span {
+		top: 32%;
+		    width: 55%;
+		    margin-left: -44%;
+		    height: 1px;
+	}
+	/* / SPAN LINES  6 */
+	/* SPAN LINES 12 */
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.confirm > span {
+		top: 26%;
+		    width: 55%;
+		    margin-left: 0%;
+		    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span {
+		top: 26%;
+	    width: 55%;
+	    margin-left: -45%;
+	    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span {
+		top: 26%;
+	    width: 56%;
+	    margin-left: -45%;
+	    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span {
+		top: 30%;
+	    width: 55%;
+	    margin-left: -44%;
+	    height: 1px;
+	}
+	/* SPAN LINES 12 */
 }
 
-/* LINEAS SPAN */
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span{
-	top: 31%;
-	width: 24%;
-	left: 76%;
-}
-
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span{
-	width: 26%;
-	left: 75%;
-	top: 27%;
-}
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span {
-	width: 25%;
-    left: 75%;
-    top: 27%;
-}
-
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span{
-	width: 26%;
-	    left: 75%!IMPORTANT;
-    top: 31%;
-}
-/* / LINEAS SPAN */
-
-.shipment {
-    margin-top: 10%;
-}
-
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > span {
-    top: 30%;
-}
-}
 
 @media (max-width: 1280px){
 
-/* SPAN LINES */
-span.line {
-	width: 26%;
-	left: 74%;
-	top:29%;
-}
-}
-@media (max-width: 1199.98px){
-
-	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > div > i,
-	 body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.process > div > i,
-	 body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > div > i,
-	  body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > div > i,
-		 body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.delivery > div > i,
-		 body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.confirm > div > i,
-		 body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > div > i,
-		 body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > div > i,
-		 body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > div > i,
-		 body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.delivery > div > i{
-			 font-size: 4vw;
-	 		    margin-top: 24%;
-					color: #ff000087;
-		 }
-	span.line {
-		width: 13%;
-		left: 88%;
-		top: 31%;
-	}
-
-	span.line.co {
-		left: 88%;
-		width: 13%;
-		top: 27% !important;
-	}
-	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span {
-		top: 31%;
-		width: 24%;
-		left: 76%;
-	}
-	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span {
-    top: 31%;
-    width: 13%;
-    left: 88%;
-}
-/*/ SPAN LINES  TOP */
-
-
-/* SPAN LINES  BOTTOM */
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span {
-	width: 12%;
-left: 89%;
-top: 27%;
-}
-
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span {
-    width: 12%;
-    left: 89%;
-    top: 27%;
-}
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span {
-	width: 12%;
-	left: 89%!IMPORTANT;
-	top: 31%;
-}
-
-/*/ SPAN LINES  BOTTOM */
-
-.content3 p {
-      margin-left: -12%;
-}
-}
-@media (max-width: 1080px){
-.content {
-width: 75%;
-}
-
-
-span.line {
-    width: 29%;
-    left: 71%;
-}
-
-span.line.co {
-	left: 71%;
-    width: 29%;
-    top: 31% !important;
-}
-
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span {
-	top: 31%;
-    width: 28%;
-    left: 72%;
-}
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span {
-	width: 28%;
-    left: 72%;
-    top: 27%;
-}
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span {
-	width: 29%;
-	left: 71%;
-	top: 27%;
-}
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span {
-	width: 29%;
-	left: 71%!IMPORTANT;
-	top: 31%;
-}
-}
-
-@media (max-width: 1050px){
 	.content3 p {
-    margin-left: -22%;
-}
-	/* LINEAS SPAN */
-	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span{
-		top: 31%;
-		width: 28%;
-		left: 72%;
+	  margin-left: -53%;
+	}
+	.content {
+	    width: 100%;
+	    margin: 3% auto 0 auto;
+	    height: 460px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.confirm > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.process > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.quality > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.dispatch > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.delivery > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.confirm > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.quality > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.dispatch > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.delivery > div > i{
+		margin-top: 17%;
+		font-size: 53px;
 	}
 
-	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span{
-		width: 28%;
-    left: 72%;
-    top: 27%;
+	/* SPAN LINES   6   */
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > span {
+		top: 34%;
+		    width: 56%;
+		    margin-left: -1%;
+		    height: 1px;
 	}
-	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span {
-		width: 28%;
-		left: 72%;
-		top: 27%;
-	}
-
-	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span{
-		width: 28%;
-		left: 72%;
-		top: 27%;
-	}
-}
-
-@media (max-width: 1024px){
-	.content{
-		width:77%;
-	}
-	.content3 p {
-		font-size:14px;
-	}
-
-	span.line.co{
-		left: 76%;
-	  width: 24%;
-	}
-
-	/* LINEAS SPAN */
-
-	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > span{
-		width: 29%;
-		left: 71%;
-		top: 37%;
-	}
-	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.process > span{
-		top: 32%;
-		width: 31%;
-		left: 69%;
-	}
-	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > span{
-		top: 32%;
-		width: 31%;
-		left: 69%;
-	}
-	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span{
-		top: 31%;
-		width: 32%;
-		left: 69%;
-	}
-
-	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span{
-		width: 31%;
-		left: 69%;
-		top: 27%;
-	}
-	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span {
-		width: 29%;
-		left: 70%;
-	}
-
-	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span{
-		width: 32%;
-		left: 69%!IMPORTANT;
-		top: 31%;
-	}
-	/* LINEAS SPAN */
-
-}
-
-@media (max-width: 992px) and (min-width:902px){
-
-	/* TOP SPAN */
-	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > span{
-		width: 29%;
-	    left: 72%;
-	    top: 37%;
-	}
-
 	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.process > span {
+		top: 31%;
+		    width: 55%;
+		    margin-left: 0%;
+		    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > span {
+		top: 31%;
+	    width: 56%;
+	    margin-left: 0%;
+	    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span {
 		top: 32%;
-    width: 28%;
-    left: 73%;
+		    width: 55%;
+		    margin-left: -44%;
+		    height: 1px;
+	}
+	/* / SPAN LINES  6 */
+	/* SPAN LINES 12 */
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.confirm > span {
+		top: 26%;
+		    width: 55%;
+		    margin-left: 0%;
+		    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span {
+		top: 26%;
+	    width: 55%;
+	    margin-left: -45%;
+	    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span {
+		top: 26%;
+	    width: 56%;
+	    margin-left: -45%;
+	    height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span {
+		top: 30%;
+	    width: 55%;
+	    margin-left: -44%;
+	    height: 1px;
+	}
+	/* SPAN LINES 12 */
 }
-
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > span {
-	width: 27%;
-left: 73%;
-}
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span {
-	top: 31%;
-	    width: 28%;
-	    left: 73%;
-}
-
-	/*/ TOP SPAN */
-
-
-body > main > div.container.marketing > div:nth-child(1){
-	width: 100%
-}
-body > main > div.container.marketing > div:nth-child(2){
-	width: 100%;
-}
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.confirm > span{
-	width: 30%;
-	    left: 72%;
-}
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span {
-	width: 29%;
-	    left: 71%;
-}
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span {
-	width: 29%;
-	    left: 72%;
-}
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span {
-	width: 29%;
-    left: 73%!IMPORTANT;
+@media (max-width: 1200px){
+	.content3 p {
+		margin-left: -53%;
+	}
+	.content {
+			width: 100%;
+			margin: 3% auto 0 auto;
+			height: 460px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.confirm > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.process > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.quality > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.dispatch > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.delivery > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.confirm > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.quality > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.dispatch > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.delivery > div > i{
+		margin-top: 17%;
+		font-size: 53px;
 	}
 
+	/* SPAN LINES   6   */
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > span {
+		top: 34%;
+		width: 46%;
+margin-left: 9%;
+				height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.process > span {
+		top: 31%;
+		width: 46%;
+		margin-left: 9%;
+		height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > span {
+		top: 31%;
+			width: 47%;
+			margin-left: 9%;;
+			height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span {
+		top: 32%;
+		width: 48%;
+margin-left: -36%;
+				height: 1px;
+	}
+	/* / SPAN LINES  6 */
+	/* SPAN LINES 12 */
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.confirm > span {
+		top: 26%;
+		width: 47%;
+		margin-left: 8%;
+	  height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span {
+		top: 26%;
+		width: 48%;
+	margin-left: -37%;
+			height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span {
+		top: 26%;
+		width: 46%;
+	margin-left: -35%;
+			height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span {
+		top: 30%;
+		width: 49%;
+	margin-left: -37%;
+			height: 1px;
+	}
+	/* SPAN LINES 12 */
 }
+@media (max-width:1000px) and (min-width:769px) {
+	.content3 p {
+		margin-left: -53%;
+	}
+	.content {
+			width: 100%;
+			margin: 3% auto 0 auto;
+			height: 460px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.confirm > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.process > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.quality > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.dispatch > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.delivery > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.confirm > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.quality > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.dispatch > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.delivery > div > i{
+		margin-top: 17%;
+		font-size: 53px;
+	}
 
-@media (max-width: 900px){
-.content {
-    width: 85%;
-}
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > span{
-	width: 14%;
-left: 86%;
-top: 37%;
-}
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.process > span{
-	top: 32%;
-	    width: 16%;
-	    left: 85%;
-}
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > span{
-	top: 31% !important;
-    width: 15%;
-    left: 85%;
-}
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span{
-	top: 31%;
-width: 15%;
-left: 85%;
-}
-
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span{
-	width: 16%;
-	left: 85%;
-	top: 27%;
-}
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span {
-	width: 14%;
-    left: 86%;
-}
-
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span{
-	width: 15%;
-	    left: 85%!IMPORTANT;
-
-}
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.confirm > span {
-	top: 27%;
-width: 14%;
-left: 86%;
-}
+	/* SPAN LINES   6   */
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > span {
+		top: 34%;
+		width: 29%;
+	margin-left: 27%;
+				height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.process > span {
+		top: 31%;
+		width: 30%;
+    margin-left: 26%;
+		height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > span {
+		top: 31%;
+		width: 28%;
+    margin-left: 27%;
+			height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span {
+		top: 32%;
+		width: 28%;
+    margin-left: -18%;
+				height: 1px;
+	}
+	/* / SPAN LINES  6 */
+	/* SPAN LINES 12 */
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.confirm > span {
+		top: 26%;
+		width: 28%;
+margin-left: 28%;
+		height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span {
+		top: 26%;
+		width: 29%;
+    margin-left: -19%;
+			height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span {
+		top: 26%;
+		width: 28%;
+    margin-left: -17%;
+			height: 1px;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span {
+		top: 30%;
+		width: 29%;
+    margin-left: -18%;
+			height: 1px;
+	}
+	/* SPAN LINES 12 */
 
 }
 
 @media (max-width:769px) and (min-width:576px) {
 
-	body > main > div.container.marketing > div:nth-child(1){
-		width: 100%
-	}
-	body > main > div.container.marketing > div:nth-child(2){
-		 width: 100%;
-	}
 
-.imgcircle{
-	width: 100%;
-	margin-left: -27%;
-
-}
 /* borrando  */
 
 body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > span,
@@ -673,107 +804,36 @@ display: none;
 
 /* borrando  */
 
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > div > i,
- body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.process > div > i,
- body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > div > i,
-  body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > div > i,
-	 body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.delivery > div > i,
-	 body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.confirm > div > i,
-	 body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > div > i,
-	 body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > div > i,
-	 body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > div > i,
-	 body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.delivery > div > i{
-		 font-size: 8vw;
- 		margin-top: 14%;
-	 }
-	 body > main > div.container.marketing > div:nth-child(1) > div.content3.aa,
-	 body > main > div.container.marketing > div:nth-child(2) > div.content3.bb{
-		 width: 638px;
-margin-left: -13%;
-	 }
-	 .content3 p {
-    margin-left: -54%;
-}
 
 }
 
-
-@media (max-width: 768px){
-.content2-header1 {
-	width: 25%;
-}
-.content2-header1 p {
-    margin: 0 -19% 0 -10%;
-}
-span.line {
-    width: 72px;
-    left: 51%;
-}
-}
-
-@media (max-width:575.98px) {body > main > div.container.marketing > div:nth-child(1){
-	width: 100%
-}
-body > main > div.container.marketing > div:nth-child(2){
-	 width: 100%;
-}
-
-.imgcircle{
-width: 100%;
-margin-left: -27%;
-
-}
-/* borrando  */
-
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > span,
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.process > span,
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > span,
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span,
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span,
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span,
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span,
-body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.confirm > span {
-display: none;
-}
-
-/* borrando  */
-
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > div > i,
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.process > div > i,
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > div > i,
-body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > div > i,
- body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.delivery > div > i,
- body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.confirm > div > i,
- body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > div > i,
- body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > div > i,
- body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > div > i,
- body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.delivery > div > i{
-	 font-size: 8vw;
-	margin-top: 25%;
- }
- body > main > div.container.marketing > div:nth-child(1) > div.content3.aa,
- body > main > div.container.marketing > div:nth-child(2) > div.content3.bb{
-	 width: 98vw;
-     margin-left: 0%;
- }
- .content3 p {
-	margin-left: -54%;
-	    display: table-caption;
-}
-body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.dispatch > p{
-	    width: 172%;
-}
-
-}
+@media (max-width:575px) and (min-width:415px){
 
 
-
-
-
-
-
-
-@media (max-width: 414px){
+	/* TAMAÑO DE LOS ICONOS */
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.confirm > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.process > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.quality > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.dispatch > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.delivery > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.confirm > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.quality > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.dispatch > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.delivery > div > i{
+		margin-top: 17%;
+		font-size: 93px;
+	}
+	/* TAMAÑO DE LOS ICONOS */
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > span,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.process > span,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > span,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.confirm > span {
+	display: none;
+	}
 
 	/* ARREGLANDO ESPACIO DE CONTENIDO */
 	.shipment {
@@ -785,28 +845,26 @@ body > main > div.container.marketing > div:nth-child(1) > div.content3.aa{
     margin-left: 0%;
 }
 /* / shipment a*/
-
-/* items shipment a; */
-
-body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.confirm{
-	margin-left: 0;
-	margin-top: -10%;
-}
 /*/ items shipment a; */
 body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div{
 	margin-left: 0;
 }
-body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.process{
-	margin-left: 0;
-}
-body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.quality{
+body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.process,
+body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.quality,
+body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.dispatch,
+body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.delivery,
+body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.confirm,
+body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.process,
+body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.quality,
+body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.dispatch,
+body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.delivery,
+body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.confirm
+{
 		margin-left: 0;
+		    height: 30vh;
 }
-body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.dispatch{
-		margin-left: 0;
-}
-body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.delivery{
-		margin-left: 0;
+body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.confirm {
+        margin-top: -8%;
 }
 
 /* Shipment b */
@@ -817,26 +875,12 @@ body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div
 	margin-left: 0;
 }
 /* / Shipment b */
-body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.confirm{
-	margin-left: 0;
-}
 
-body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.process{
-	margin-left: 0;
 
-}
-body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.quality{
-	margin-left: 0;
-}
-body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.dispatch{
-	margin-left: 0;
-}
-body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.delivery{
-	margin-left: 0;
-}
+
 
 body > main > div.container.marketing > hr:nth-child(3){
-	margin: 10rem 0;
+	margin: 8rem 0;
 }
 
 
@@ -859,7 +903,7 @@ body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div
 }
 	.content {
     width: 93%;
-	height:885px;
+	height:1500px;
 	margin-top:17% !important;
 }
 	.content1 h2 {
@@ -896,9 +940,9 @@ body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div
 	margin: 22% 0 0 5%;
 }
 	.imgcircle {
-    height: 70px;
-    width: 70px;
-	margin-left: 35%;
+		height: 100%;
+	width: 180px;
+	margin-left: 29%;
 }
 	.imgcircle img {
     height: 30px;
@@ -924,46 +968,338 @@ body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div
 	.footer p {
 	font-size:17px;
 }
+
+}
+
+
+
+
+
+
+
+@media (max-width: 414px){
+
+	/* TAMAÑO DE LOS ICONOS */
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.confirm > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.process > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.quality > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.dispatch > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.delivery > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.confirm > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.quality > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.dispatch > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.delivery > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.process > div > i{
+		margin-top: 17%;
+		font-size: 93px;
+	}
+	/* TAMAÑO DE LOS ICONOS */
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > span,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.process > span,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > span,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.confirm > span {
+	display: none;
+	}
+
+	/* ARREGLANDO ESPACIO DE CONTENIDO */
+	.shipment {
+		margin-left: 0;
+	}
+	/*  shipment a*/
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa{
+	width: 100%;
+		margin-left: 0%;
+	}
+	/* / shipment a*/
+	/*/ items shipment a; */
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div{
+	margin-left: 0;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.process,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.quality,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.dispatch,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.delivery,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.confirm,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.process,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.quality,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.dispatch,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.delivery,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.confirm
+	{
+		margin-left: 0;
+				height: 30vh;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.confirm {
+				margin-top: -8%;
+	}
+
+	/* Shipment b */
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb{
+	width: 100%;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div{
+	margin-left: 0;
+	}
+	/* / Shipment b */
+
+
+
+
+	body > main > div.container.marketing > hr:nth-child(3){
+	margin: 8rem 0;
+	}
+
+
+	/* TEXTOS DE LOS SHIPMENTS */
+
+	.content3 p {
+		margin: 0 !important;
+		width: 88vw;
+		font-size: 1px;
+	}
+
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.dispatch > p{
+	margin: 0 !important;
+	width: 88vw;
+	}
+	/* TEXTOS DE LOS SHIPMENTS */
+	/* ARREGLANDO ESPACIO DE CONTENIDO */
+	.header {
+		margin-top: 8%;
+	}
+	.content {
+		width: 93%;
+	height:1500px;
+	margin-top:17% !important;
+	}
+	.content1 h2 {
+	font-size:22px;
+	}
+	.content2-header1 {
+	padding:0.7em;
+		width: 80%;
+	margin-left: 3%;
+	}
+	.content2-header1 p {
+		font-size: 19px;
+	}
+	.content2-header1 span {
+		font-size: 16px;
+	}
+	.confirm {
+	width:100%;
+	}
+	.process {
+	width:100%;
+	margin: 22% 0 0 5%;
+	}
+	.quality{
+	width:100%;
+	margin: 22% 0 0 5%;
+	}
+	.dispatch{
+	width:100%;
+	margin: 22% 0 0 5%;
+	}
+	.delivery{
+	width:100%;
+	margin: 22% 0 0 5%;
+	}
+	.imgcircle {
+		height: 100%;
+	width: 180px;
+	margin-left: 26%;
+	}
+	.imgcircle img {
+		height: 30px;
+		top: 27%;
+		left: 28%;
+	}
+	span.line {
+		width: 6px;
+		left: 43.5%;
+		height: 58px;
+	top:152%;
+	}
+	.content3 p {
+		font-size: 15px;
+		margin: -12% 0 0 -72%;
+	}
+	.shipment {
+		margin-left: 16%;
+	}
+	.footer {
+	padding:1%;
+	}
+	.footer p {
+	font-size:17px;
+	}
 }
 
 
 
 @media (max-width: 320px){
-	.header {
-    margin-top: 10%;
-}
-	.content{
-	margin-top: 10%;
-}
-	.content1 {
-    padding: 1em;
-}
-	.header h1{
-	font-size:31px;
-}
-	.content {
-    height: 830px;
-}
-	.content1 h2 {
-    font-size: 17px;
-}
-	.content2-header1 span {
-    font-size: 15px;
-}
-	.content3 p {
-    margin: -16% 0 0 -79%;
-}
+	/* TAMAÑO DE LOS ICONOS */
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.confirm > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.process > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.quality > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.dispatch > div > i,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.delivery > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.confirm > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.quality > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.dispatch > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.delivery > div > i,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.process > div > i{
+		margin-top: 17%;
+		font-size: 93px;
+	}
+	/* TAMAÑO DE LOS ICONOS */
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.confirm > span,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.process > span,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.quality > span,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3 > div > div.dispatch > span,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.process > span,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.quality > span,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.dispatch > span,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > div.confirm > span {
+	display: none;
+	}
+
+	/* ARREGLANDO ESPACIO DE CONTENIDO */
 	.shipment {
-    margin-left: 19%;
-}
+		margin-left: 0;
+	}
+	/*  shipment a*/
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa{
+	width: 100%;
+		margin-left: 0%;
+	}
+	/* / shipment a*/
+	/*/ items shipment a; */
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div{
+	margin-left: 0;
+	}
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.process,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.quality,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.dispatch,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.delivery,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.confirm,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.process,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.quality,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.dispatch,
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.delivery,
+	body > main > div.container.marketing > div:nth-child(1) > div.content3.aa > div > div.confirm
+	{
+		margin-left: 0;
+				height: 30vh;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.confirm {
+				margin-top: -8%;
+	}
+
+	/* Shipment b */
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb{
+	width: 100%;
+	}
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div{
+	margin-left: 0;
+	}
+	/* / Shipment b */
+
+
+
+
+	body > main > div.container.marketing > hr:nth-child(3){
+	margin: 8rem 0;
+	}
+
+
+	/* TEXTOS DE LOS SHIPMENTS */
+
+	.content3 p {
+		margin: 0 !important;
+		width: 88vw;
+		font-size: 1px;
+	}
+
+	body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div > div.dispatch > p{
+	margin: 0 !important;
+	width: 88vw;
+	}
+	/* TEXTOS DE LOS SHIPMENTS */
+	/* ARREGLANDO ESPACIO DE CONTENIDO */
+	.header {
+		margin-top: 8%;
+	}
+	.content {
+		width: 93%;
+	height:1500px;
+	margin-top:17% !important;
+	}
+	.content1 h2 {
+	font-size:22px;
+	}
+	.content2-header1 {
+	padding:0.7em;
+		width: 80%;
+	margin-left: 3%;
+	}
+	.content2-header1 p {
+		font-size: 19px;
+	}
+	.content2-header1 span {
+		font-size: 16px;
+	}
+	.confirm {
+	width:100%;
+	}
+	.process {
+	width:100%;
+	margin: 22% 0 0 5%;
+	}
+	.quality{
+	width:100%;
+	margin: 22% 0 0 5%;
+	}
+	.dispatch{
+	width:100%;
+	margin: 22% 0 0 5%;
+	}
+	.delivery{
+	width:100%;
+	margin: 22% 0 0 5%;
+	}
+	.imgcircle {
+		height: 100%;
+	width: 180px;
+	margin-left: 17%;
+	}
+	.imgcircle img {
+		height: 30px;
+		top: 27%;
+		left: 28%;
+	}
 	span.line {
-    top: 115%;
-    left: 46%;
-}
+		width: 6px;
+		left: 43.5%;
+		height: 58px;
+	top:152%;
+	}
+	.content3 p {
+		font-size: 15px;
+		margin: -12% 0 0 -72%;
+	}
+	.shipment {
+		margin-left: 16%;
+	}
 	.footer {
-	margin-top: 1%;
-}
+	padding:1%;
+	}
 	.footer p {
-    font-size: 14px;
-}
+	font-size:17px;
+	}
 }
