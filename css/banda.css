@@ -5,6 +5,7 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
+
 body {
 	margin:0;
 	padding:0;
@@ -648,6 +649,9 @@ body > main > div.container.marketing > div:nth-child(2) > div.content3 > div > 
 	/* SPAN LINES 12 */
 }
 @media (max-width: 1200px){
+	body > div > div{
+		margin-top: 10%;
+	}
 	.content3 p {
 		margin-left: -53%;
 	}
@@ -723,6 +727,10 @@ margin-left: -36%;
 	/* SPAN LINES 12 */
 }
 @media (max-width:1000px) and (min-width:769px) {
+
+	body > div > div{
+		margin-top: 16%;
+	}
 	body > main > div.container.marketing > div > div.content3 > div > div > h3 {
     position: relative;
     left: -11%;
@@ -804,6 +812,11 @@ margin-left: 28%;
 }
 
 @media (max-width:769px) and (min-width:576px) {
+
+	body > div > div{
+		margin-top: 24%;
+	}
+
 	body > main > footer{
 		display: grid;
 	}
@@ -841,6 +854,9 @@ display: none;
 }
 
 @media (max-width:575px) and (min-width:415px){
+	body > div > div{
+		margin-top: 24%;
+	}
 
 	body > main > footer{
 		display: grid;
@@ -1036,6 +1052,9 @@ body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div
 
 
 @media (max-width: 414px){
+	body > div > div{
+		margin-top: 30%;
+	}
 	body > main > div.container.marketing > div > div.content3 > div > div > h3 {
     position: inherit;
     left: 0;
@@ -1215,6 +1234,9 @@ body > main > div.container.marketing > div:nth-child(2) > div.content3.bb > div
 
 
 @media (max-width: 320px){
+	body > div > div{
+		margin-top: 39%;
+	}
 
 
 	body > main > div.container.marketing > div:nth-child(1) > div.content1 > h2,
