@@ -8,3 +8,6 @@ body > div > div > div > h2
 body > div > div > div > p{
   text-align: center;
 }
+body > div{
+  box-shadow: -8px 3px 29px grey;
+      border-radius: 16px;}
