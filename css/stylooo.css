@@ -1,0 +1,10 @@
+#myCarousel > div > div > img{
+  width:  21vw;
+  border-radius: 6px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
