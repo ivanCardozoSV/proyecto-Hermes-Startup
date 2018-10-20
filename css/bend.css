@@ -1,7 +1,34 @@
 * {
   box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+}
+#location-input{
+  margin-right: 9px;
+}
+/*  TAMAÑO DE BARRA DE NAVEGACION*/
+body > nav{
+  max-width: 100vw;
+}
+/*  / TAMAÑO DE BARRA DE NAVEGACION*/
+
+/* Estilos de barra  */
+.fixed-top {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 
+.form-inline {
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+/* Estilos de barra  */
+.container-fluid {
+    width: 100% !important;
+}
 body {
   background: #EDEFED !important;
 }
@@ -33,17 +60,17 @@ body {
 }
 
 #visit-first {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1b/Anchorage_from_Earthquake_Park.jpg");
+  font-size: 30px;
+  background-image: url("../imagenes/d1.jpg");
 }
 
 #visit-second {
-  background-image: url("https://res-1.cloudinary.com/simpleview/image/upload/c_fill,f_auto,h_360,q_50,w_1024/v1/clients/boulder/Panorama%20of%20downtown%20Boulder%20-%20fall_d6baa374-d1f1-4293-a6f6-483d7a1bb984.jpg");
+  background-image: url("../imagenes/d7.png");
 }
 
 #visit-third {
-  background-image: url("http://www.miamiandbeaches.com/~/media/images/miamiandbeaches/plan-your-trip/gettingaround/miami-from-ft-lauderdale/causeway-miami-skyline-612x338.jpg");
+  background-image: url("../imagenes/d3.jpg");
 }
-
 .visit-img {
   border: 10px solid white;
   text-align: center;
@@ -65,43 +92,43 @@ body {
 }
 
 #expl-first {
-  background-image: url("http://cpphilawest.com/wp-content/uploads/Philadelphia_LovePark.jpg");
+  background-image: url("../imagenes/d6.jpg");
 }
 
 #expl-second {
-  background-image: url("http://www.sandiego.edu/law/_billboards/_home/images/perfect-climate.png");
+    background-image: url("../imagenes/farm2.gif");
 }
 
 #expl-third {
-  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/03/d4/43/79/portland.jpg");
+background-image: url("../imagenes/queso.gif");
 }
 
 #expl-fourth {
-  background-image: url("http://www.ninezero.com/images/1700-960/sailboats-in-boston-0a5755ca.jpg");
+  background-image: url("../imagenes/carne1.gif");
 }
 
 #expl-fifth {
-  background-image: url("http://www.acadiamagic.com/720x480/bar-harbor-0415.jpg");
+  background-image: url("../imagenes/carne2.gif");
 }
 
 #expl-sixth {
-  background-image: url("https://4.bp.blogspot.com/-r-6xQbY3IA0/VmXlgScJNTI/AAAAAAAAV9U/H9yvqbINI80/s1600/20039478636_6b4c8ac9a5_o.jpg");
+  background-image: url("https://media1.tenor.com/images/bf57dec10d7107348ba1e8e9916f3a75/tenor.gif?itemid=3366073");
 }
 
 #expl-seventh {
-  background-image: url("http://www.pompo.com/wp-content/uploads/2012/07/IMG_0905.jpg");
+  background-image: url("../imagenes/pollo.gif");
 }
 
 #expl-eigth {
-  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/03/9b/30/26/seattle.jpg");
+  background-image: url("../imagenes/frutas.gif");
 }
 
 #expl-ninth {
-  background-image: url("http://www.lennar.com/images/com/images/new-homes/18/14/mhi/DallasSkyline21200X540opt.jpg");
+background-image: url("../imagenes/verduras.gif");
 }
 
 #expl-tenth {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e7/Las_Vegas_89.jpg");
+background-image: url("../imagenes/farm.gif");
 }
 
 .expl-img {
@@ -116,4 +143,186 @@ body {
 #see-all-destinations-button-wrapper {
   text-align: center;
   margin-bottom: 5rem;
+}
+
+/* search button */
+#navbarCollapse > form{
+  margin-left: 14%;
+}
+
+/* / search button */
+
+@media  (max-width:1880px) {
+  #expl-first {
+      background-repeat: no-repeat;
+      background-position-y: center;
+  }
+  #expl-sixth{
+    background-repeat: no-repeat;
+    background-position-y: center !important;
+  }
+}
+@media (max-width:1325px) {
+  #navbarCollapse > form{
+    margin-left: 1vw;
+  }
+
+}
+
+@media (max-width:1199px) {
+
+  }
+  @media (max-width:1325px) {
+    #navbarCollapse > form{
+      margin-left: 1vw;
+    }
+
+  }
+
+
+
+@media (max-width:991px) {
+  #navbarCollapse > ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width:767px) {
+  /* grid template */
+body > nav.navbar{
+  display: grid;
+  grid-template-columns: 90% 10%;
+  grid-template-rows: auto;
+}
+/* Logo hermes */
+
+/* Logo hermes */
+
+/* boton */
+body > nav > button{
+justify-self: center;
+}
+
+/* boton */
+
+#navbarCollapse > ul > li:nth-child(1) > a{
+      margin-left: 3%
+}
+body > footer{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+}
+}
+@media (max-width:575px) {
+
+
+  body > footer{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+
+  /* grid del buscador */
+  body > div > form{
+  display: grid !important;
+  justify-content: center;
+
+  }
+
+  /* grid del buscador */
+
+
+  /* grid template */
+body > nav.navbar{
+  display: grid;
+  grid-template-columns: 90% 10%;
+  grid-template-rows: auto;
+}
+/* Logo hermes */
+body > nav > a{
+
+}
+/* Logo hermes */
+
+/* boton */
+body > nav > button{
+justify-self: center;
+}
+
+/* boton */
+
+
+}
+@media (max-width:543px) {
+
+  .container-fluid {
+      width: 102% !important;
+  }
+  body > nav{
+    max-width: 100%;
+  }
+  /* grid template */
+body > nav.navbar{
+  display: grid;
+  grid-template-columns: 90% 10%;
+  grid-template-rows: auto;
+}
+/* Logo hermes */
+body > nav > a{
+
+}
+/* Logo hermes */
+
+/* boton */
+body > nav > button{
+justify-self: center;
+}
+
+/* boton */
+
+
+}
+
+@media (max-width:417px) {
+  /* grid template */
+body > nav.navbar{
+  display: grid;
+  grid-template-columns: 90% 10%;
+  grid-template-rows: auto;
+}
+/* Logo hermes */
+body > nav > a{
+
+}
+/* Logo hermes */
+
+/* boton */
+body > nav > button{
+justify-self: center;
+}
+
+/* boton */
+
+/* grid template */
+
+.container-fluid {
+    width: 102% !important;
+        margin-top: 23%;
+}
+}
+@media (max-width:331px) {
+
+.container-fluid {
+    width: 102% !important;
+        margin-top: 27%;
+}
+#navbarCollapse > ul > li:nth-child(1) > a{
+      margin-left: 6%
+}
+
 }
