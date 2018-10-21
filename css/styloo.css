@@ -56,3 +56,9 @@ body > i > i > footer > p:nth-child(2){
     justify-content: center;
     align-content: center;
 }
+
+@media (max-width:300px) {
+ button.navbar-toggler{
+margin-left: -11%;
+ }
+}

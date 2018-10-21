@@ -108,7 +108,7 @@ margin-top: 5%;
     margin-top: 8%;
   }
   body > div > div:nth-child(1) > div > div{
-    width: 87%;
+    width: 86%;
     font-size: 28px;
   }
 
@@ -148,7 +148,11 @@ margin-top: 5%;
   body > div > div:nth-child(1) > div{
     margin-top: 46%;
   }
+  button.navbar-toggler{
+ margin-left: -11%;
+  }
 }
+
 
 @media (max-width:276px){
   body > div > div:nth-child(1) > div > div{

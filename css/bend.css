@@ -292,7 +292,7 @@ justify-self: center;
   /* grid template */
 body > nav.navbar{
   display: grid;
-  grid-template-columns: 90% 10%;
+  grid-template-columns: 80% 20%;
   grid-template-rows: auto;
 }
 /* Logo hermes */
