@@ -28,13 +28,24 @@ body > div.container{
   max-width: 100%;
 }
 footer.container{
-  width: 137%;
+  width: 131%;
 FONT-SIZE: 1.5rem;
 justify-content: center;
 align-content: center;
 display: flex;
 flex-wrap: wrap;
 }
+}
+
+@media (max-width:360px) and (min-width:321px){
+  footer.container {
+      width:151%;
+      FONT-SIZE: 1.5rem;
+      justify-content: center;
+      align-content: center;
+      display: flex;
+      flex-wrap: wrap;
+  }
 }
 
 @media (max-width:320px) {
@@ -114,7 +125,7 @@ border-radius: 12px;
  font-size: 2.2rem;
 }
 footer.container{
-  width: 281%;
+  width: 291%;
 FONT-SIZE: 2.5rem;
 justify-content: center;
 align-content: center;
