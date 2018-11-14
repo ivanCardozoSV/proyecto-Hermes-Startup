@@ -8,9 +8,7 @@ body > div > div > div > h2
 body > div > div > div > p{
   text-align: center;
 }
-body > div{
-  box-shadow: 0px 0px 14px #b5b5b5;
-}
+
 @media (max-width:300px) {
  button.navbar-toggler{
 margin-left: -11%;
